@@ -21,7 +21,7 @@ const App = () => {
   // Check API health on mount
   useEffect(() => {
     checkApiHealth();
-  }, [API_BASE_URL, checkApiHealth]);
+  }, [API_BASE_URL]);
 
   // Handle recording timer
   useEffect(() => {
